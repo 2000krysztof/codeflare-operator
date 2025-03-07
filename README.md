@@ -82,11 +82,13 @@ The e2e tests can be executed locally by running the following commands:
       - 'system:serviceaccount:$(namespace):kuberay-operator'
     ```
 
-3.  In a separate terminal, set your output directory for test files, and run the e2e suite:
+3.  In the /etc/hosts file add the following lines:
     ```bash
-    export CODEFLARE_TEST_OUTPUT_DIR=<your_output_directory>
+    127.0.0.1 ray-dashboard-raycluster-test-ns-1.kind
+    127.0.0.1 ray-dashboard-raycluster-test-ns-2.kind
     ```
 
+4.  To run the tests run the command
     ```bash
     make test-e2e
     ```
