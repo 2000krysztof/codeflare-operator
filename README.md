@@ -47,7 +47,7 @@ The e2e tests can be executed locally by running the following commands:
    make setup-e2e
    ```
 
-   >[!NOTE]
+> [!NOTE]
    >If you get an error on linux
    ```
     Error: rootlessport cannot expose privileged port 80
