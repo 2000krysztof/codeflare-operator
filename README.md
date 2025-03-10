@@ -37,9 +37,9 @@ The e2e tests can be executed locally by running the following commands:
     make kind-e2e
     ```
 
-   >[!NOTE]
-   >Some e2e tests cover the access to services via Ingresses, as end-users would do, which requires access to the Ingress controller load balancer by its IP.
-   >For it to work on macOS, this requires installing [docker-mac-net-connect](https://github.com/chipmk/docker-mac-net-connect).
+   > [!NOTE]
+   > Some e2e tests cover the access to services via Ingresses, as end-users would do, which requires access to the Ingress controller load balancer by its IP.
+   > For it to work on macOS, this requires installing [docker-mac-net-connect](https://github.com/chipmk/docker-mac-net-connect).
 
 2. Setup the rest of the CodeFlare stack.
 
